@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Sitemap: https://apiiyu-sveltekit-weserve.vercel.app/sitemap.xml
