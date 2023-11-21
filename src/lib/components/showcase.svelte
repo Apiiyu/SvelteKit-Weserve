@@ -33,7 +33,13 @@
 			<swiper-slide
 				class="group relative top-0 left-0 z-0 flex justify-center items-center text-center text-white rounded-2xl !w-80 !h-56 hover:border-4 hover:border-solid hover:border-primary transition-all ease-in-out duration-300 cursor-pointer"
 			>
-				<img src={showcase.image} alt="showcase" class="w-full h-full object-cover rounded-2xl" />
+				<img
+					src={showcase.image}
+					alt="showcase"
+					width="312"
+					height="216"
+					class="w-full h-full object-cover rounded-2xl"
+				/>
 
 				<a
 					href={showcase.linkTo}

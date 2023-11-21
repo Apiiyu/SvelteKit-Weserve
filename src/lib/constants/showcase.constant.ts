@@ -1,9 +1,9 @@
 // Assets
-import showcaseOne from '$lib/assets/images/showcase-1.png';
-import showcaseTwo from '$lib/assets/images/showcase-2.png';
-import showcaseThree from '$lib/assets/images/showcase-3.png';
-import showcaseFour from '$lib/assets/images/showcase-4.png';
-import showcaseFive from '$lib/assets/images/hero_illustration.png';
+import showcaseOne from '$lib/assets/images/showcase-1.webp';
+import showcaseTwo from '$lib/assets/images/showcase-2.webp';
+import showcaseThree from '$lib/assets/images/showcase-3.webp';
+import showcaseFour from '$lib/assets/images/showcase-4.webp';
+import showcaseFive from '$lib/assets/images/hero_illustration.webp';
 
 export const INITIAL_SHOWCASE_DATA = [
 	{

@@ -16,7 +16,7 @@
 		&nbsp;
 	</div>
 
-	<img src={icon} alt="feature-icon" class="text-white" />
+	<img src={icon} alt="feature-icon" width="46" height="46" class="text-white" />
 
 	<figcaption class="flex flex-col gap-1">
 		<h2 class="font-poppins font-semibold text-xl text-white">{title}</h2>

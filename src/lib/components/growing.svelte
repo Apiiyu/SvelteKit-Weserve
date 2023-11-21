@@ -18,7 +18,7 @@
 			<figure
 				class="bg-white flex justify-center items-center gap-2 px-4 py-3 w-fit rounded-[100px]"
 			>
-				<img src={iconGlobe} alt="icon-globe" />
+				<img src={iconGlobe} alt="icon-globe" width="24" height="24" />
 
 				<figcaption class="font-poppins font-semibold text-base text-primary">
 					Acquire global ecosystem $500 million
@@ -46,7 +46,7 @@
 				<button
 					class="flex justify-center items-center gap-2 font-poppins font-semibold text-base text-white px-10 py-4 rounded-[100px]"
 				>
-					<img src={iconDevice} alt="icon-device" />
+					<img src={iconDevice} alt="icon-device" width="24" height="24" />
 					Schedule a Demo
 				</button>
 			</section>

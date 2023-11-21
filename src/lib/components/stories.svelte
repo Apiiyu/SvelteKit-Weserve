@@ -28,14 +28,20 @@
 			>
 				<picture class="flex items-center gap-1">
 					{#each Array(story.rate) as rate}
-						<img src={iconStar} alt={`star-${rate}`} class="w-6 h-6" />
+						<img src={iconStar} alt={`star-${rate}`} width="24" height="24" class="w-6 h-6" />
 					{/each}
 				</picture>
 
 				{@html story.description}
 
 				<figure id="user-profile" class="flex items-center gap-3">
-					<img src={story.avatar} alt="img-user" class="w-15 h-15 rounded-full" />
+					<img
+						src={story.avatar}
+						alt="img-user"
+						width="60"
+						height="60"
+						class="w-15 h-15 rounded-full"
+					/>
 
 					<figcaption class="flex flex-col gap-1">
 						<p class="font-poppins font-semibold text-base text-white">{story.username}</p>

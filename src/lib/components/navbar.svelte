@@ -13,7 +13,7 @@
 		class="bg-secondary flex justify-between items-center px-8 py-5 rounded-[100px]"
 	>
 		<section id="left-content" class="flex items-center gap-12">
-			<img src={appLogo} alt="app-logo" />
+			<img src={appLogo} alt="app-logo" width="176" height="42" />
 
 			<ul id="list-item" class="flex items-center gap-7 list-none">
 				{#each NAVBAR_MENUS as menu}
@@ -32,7 +32,7 @@
 			<button
 				class="btn-secondary border border-solid border-secondary hover:border-none hover:border-transparent p-3 rounded-full bg-transparent hover:bg-btn-primary transition-all ease-in-out duration-300"
 			>
-				<img src={iconBag} alt="icon-bag" />
+				<img src={iconBag} alt="icon-bag" width="24" height="24" />
 			</button>
 
 			<button

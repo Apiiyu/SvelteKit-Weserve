@@ -1,7 +1,7 @@
 <script>
 	// Assets
 	import iconGlobe from '$lib/assets/icons/icon-globe.svg';
-	import imagePreviewProduct from '$lib/assets/images/hero_illustration.png';
+	import imagePreviewProduct from '$lib/assets/images/hero_illustration.webp';
 </script>
 
 <section id="hero" class="container relative top-0 left-0 right-0 z-0">
@@ -10,7 +10,7 @@
 			<figure
 				class="bg-secondary flex justify-center items-center gap-2 px-4 py-3 w-fit rounded-[100px]"
 			>
-				<img src={iconGlobe} alt="icon-globe" />
+				<img src={iconGlobe} alt="icon-globe" width="24" height="24" />
 
 				<figcaption class="text-base text-white font-poppins font-semibold">
 					Acquire global ecosystem $500 million
@@ -106,7 +106,13 @@
 	<section id="preview-product" class="grid grid-rows-1 grid-cols-12 mt-16">
 		<div class="col-span-full">
 			<picture class="w-full h-full">
-				<img src={imagePreviewProduct} alt="img-preview-product" class="w-full h-full" />
+				<img
+					src={imagePreviewProduct}
+					alt="img-preview-product"
+					width="1369"
+					height="787"
+					class="w-full h-full"
+				/>
 			</picture>
 		</div>
 	</section>

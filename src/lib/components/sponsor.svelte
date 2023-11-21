@@ -18,7 +18,7 @@
 		class="grid grid-row-1 grid-flow-col auto-cols-max place-content-center gap-12"
 	>
 		{#each SPONSOR_ASSETS as asset}
-			<a href={asset.linkTo}>
+			<a href={asset.linkTo} title="sponsor-url" rel="noopener noreferrer">
 				{@html asset.icon}
 			</a>
 		{/each}

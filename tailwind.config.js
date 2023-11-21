@@ -32,7 +32,7 @@ export default {
 			textColor: {
 				primary: '#080C2E',
 				secondary: '#E0CDFF',
-				muted: '#61647D',
+				muted: '#B5B8CA',
 				purple: '#640EF1'
 			},
 			stroke: {

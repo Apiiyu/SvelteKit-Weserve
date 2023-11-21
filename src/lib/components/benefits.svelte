@@ -1,6 +1,6 @@
 <script lang="ts">
 	// Assets
-	import benefitIllustration from '$lib/assets/images/vip_illustration.png';
+	import benefitIllustration from '$lib/assets/images/vip_illustration.webp';
 	import iconChecklist from '$lib/assets/icons/icon-checklist.svg';
 
 	/**
@@ -21,7 +21,7 @@
 		<section id="benefit" class="flex flex-col gap-6">
 			{#each benefits as benefit}
 				<figure class="flex items-center gap-2">
-					<img src={iconChecklist} alt="icon-checklist" />
+					<img src={iconChecklist} width="24" height="24" alt="icon-checklist" />
 
 					<figcaption class="font-poppins font-semibold text-lg text-muted">
 						{benefit}
@@ -42,6 +42,8 @@
 			<img
 				src={benefitIllustration}
 				alt="illustration"
+				width="512"
+				height="550"
 				class="w-full h-full object-cover max-w-lg max-h-[550px]"
 			/>
 		</picture>

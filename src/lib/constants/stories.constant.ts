@@ -1,7 +1,7 @@
 // Assets
-import userAvatarOne from '$lib/assets/images/user-1.png';
-import userAvatarTwo from '$lib/assets/images/user-2.png';
-import userAvatarThree from '$lib/assets/images/user-3.png';
+import userAvatarOne from '$lib/assets/images/user-1.webp';
+import userAvatarTwo from '$lib/assets/images/user-2.webp';
+import userAvatarThree from '$lib/assets/images/user-3.webp';
 
 export const INITIAL_STORIES_DATA = [
 	{

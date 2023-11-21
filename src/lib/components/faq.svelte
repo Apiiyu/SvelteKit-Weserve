@@ -45,7 +45,7 @@
 			<button
 				class="bg-secondary hover:bg-btn-primary w-fit flex justify-center items-center gap-2 font-poppins font-semibold text-base text-white px-5 py-4 rounded-[100px] transition-all ease-in-out duration-300"
 			>
-				<img src={iconVideoCircle} alt="icon-device" />
+				<img src={iconVideoCircle} alt="icon-device" width="32" height="32" />
 				Watch Demo
 			</button>
 		</aside>
@@ -62,7 +62,13 @@
 							class="hover:bg-gray w-8 h-8 p-2 hover:rounded-full cursor-pointer transition-all ease-in-out duration-300"
 							on:click={isOpenAnswer(faq.id)}
 						>
-							<img src={iconArrowDown} alt="icon-arrow" class="w-full h-full" />
+							<img
+								src={iconArrowDown}
+								alt="icon-arrow"
+								width="16"
+								height="16"
+								class="w-full h-full"
+							/>
 						</button>
 					</header>
 
