@@ -56,6 +56,9 @@ devDependencies:
   svelte-check:
     specifier: ^3.6.0
     version: 3.6.0(postcss@8.4.31)(svelte@4.0.5)
+  swiper:
+    specifier: ^11.0.4
+    version: 11.0.4
   tailwindcss:
     specifier: ^3.3.5
     version: 3.3.5
@@ -3251,6 +3254,11 @@ packages:
       locate-character: 3.0.0
       magic-string: 0.30.5
       periscopic: 3.1.0
+    dev: true
+
+  /swiper@11.0.4:
+    resolution: {integrity: sha512-qtUxILrD4aD++rpKzGrkz3IAWL92f9uTrDwjb6HaNLmPvJhZCE/83DL+9w4kIgDDJeF6QKalV47rMBN77UOVYQ==}
+    engines: {node: '>= 4.7.0'}
     dev: true
 
   /tailwindcss@3.3.5:
