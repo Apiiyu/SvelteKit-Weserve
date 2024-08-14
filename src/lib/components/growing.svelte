@@ -12,7 +12,7 @@
 	export let growings: IPropsGrowing[];
 </script>
 
-<section id="growing" class="container relative top-0 left-0 right-0 z-[1]">
+<section id="growing" class="container mx-auto max-w-none relative top-0 left-0 right-0 z-[1]">
 	<section id="content" class="grid grid-rows-1 grid-cols-12 gap-8 bg-purple p-12 rounded-[40px]">
 		<aside id="left-content" class="col-span-6 flex flex-col gap-10">
 			<figure

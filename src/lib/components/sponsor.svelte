@@ -5,7 +5,7 @@
 
 <section
 	id="sponsor"
-	class="container relative top-0 left-0 right-0 z-0 flex flex-col justify-center items-center gap-8"
+	class="container mx-auto max-w-none relative top-0 left-0 right-0 z-0 flex flex-col justify-center items-center gap-8"
 >
 	<figure class="flex flex-col justify-center items-center">
 		<figcaption class="font-poppins font-bold text-xl text-white">

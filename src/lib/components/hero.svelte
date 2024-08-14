@@ -4,7 +4,7 @@
 	import imagePreviewProduct from '$lib/assets/images/hero_illustration.webp';
 </script>
 
-<section id="hero" class="container relative top-0 left-0 right-0 z-0">
+<section id="hero" class="container mx-auto max-w-none relative top-0 left-0 right-0 z-0">
 	<section id="trigger-text" class="flex flex-col justify-center items-center">
 		<header class="flex flex-col justify-center items-center gap-8">
 			<figure

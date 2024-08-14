@@ -11,7 +11,10 @@
 	export let features: IPropsFeatures[];
 </script>
 
-<section id="features" class="container relative top-0 left-0 right-0 z-0 flex flex-col gap-12">
+<section
+	id="features"
+	class="container mx-auto max-w-none relative top-0 left-0 right-0 z-0 flex flex-col gap-12"
+>
 	<header class="flex justify-between items-center">
 		<h1 class="font-clash-display font-semibold text-4xl text-white">You Will Get</h1>
 

@@ -8,8 +8,8 @@
 	export let showcases: IPropsShowcase[];
 </script>
 
-<section id="showcase">
-	<header class="container relative top-0 left-0 right-0 z-0">
+<section id="showcase" class="container px-0 mx-auto max-w-none">
+	<header class="relative top-0 left-0 right-0 z-0">
 		<figure class="flex flex-col justify-center items-center gap-3">
 			<h1 class="font-clash-display font-semibold text-5xl text-white">Our Showcase</h1>
 
@@ -23,7 +23,7 @@
 	</header>
 
 	<swiper-container
-		class="mySwiper mt-8"
+		class="mySwiper mt-10 w-full container mx-auto px-0 max-w-none"
 		slides-per-view="4"
 		space-between="30"
 		free-mode="true"
@@ -31,15 +31,9 @@
 	>
 		{#each showcases as showcase}
 			<swiper-slide
-				class="group relative top-0 left-0 z-0 flex justify-center items-center text-center text-white rounded-2xl !w-80 !h-56 hover:border-4 hover:border-solid hover:border-primary transition-all ease-in-out duration-300 cursor-pointer"
+				class="group relative top-0 left-0 z-0 flex justify-center items-center text-center text-white rounded-2xl w-80 2xl:w-96 h-56 2xl:h-72 hover:border-4 hover:border-solid hover:border-primary transition-all ease-in-out duration-300 cursor-pointer"
 			>
-				<img
-					src={showcase.image}
-					alt="showcase"
-					width="312"
-					height="216"
-					class="w-full h-full object-cover rounded-2xl"
-				/>
+				<img src={showcase.image} alt="showcase" class="w-full h-full object-cover rounded-2xl" />
 
 				<a
 					href={showcase.linkTo}

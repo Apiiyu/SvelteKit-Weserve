@@ -28,7 +28,7 @@
 	};
 </script>
 
-<article id="faq" class="container relative top-0 left-0 right-0 z-0">
+<article id="faq" class="container mx-auto max-w-none relative top-0 left-0 right-0 z-0">
 	<section id="main-content" class="grid grid-rows grid-cols-12 gap-8 items-center">
 		<aside id="left-content" class="col-span-6 flex flex-col gap-10">
 			<header class="flex flex-col gap-3">

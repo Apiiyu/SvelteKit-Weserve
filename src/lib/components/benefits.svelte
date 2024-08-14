@@ -11,7 +11,7 @@
 
 <section
 	id="benefits"
-	class="container relative top-0 left-0 right-0 z-0 grid grid-rows-1 grid-cols-12 gap-7 px-36"
+	class="container mx-auto max-w-none relative top-0 left-0 right-0 z-0 grid grid-rows-1 grid-cols-12 gap-7"
 >
 	<section id="list-of-benefits" class="col-span-5 flex flex-col gap-10">
 		<h1 class="font-clash-display font-semibold text-5xl text-white leading-normal max-w-md">

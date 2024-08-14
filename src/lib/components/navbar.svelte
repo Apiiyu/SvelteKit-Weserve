@@ -7,7 +7,7 @@
 	import { NAVBAR_MENUS } from '$lib/constants';
 </script>
 
-<nav id="nav" class="container mb-[100px]">
+<nav id="nav" class="container mb-[100px] mx-auto max-w-none">
 	<section
 		id="content"
 		class="bg-secondary flex justify-between items-center px-8 py-5 rounded-[100px]"

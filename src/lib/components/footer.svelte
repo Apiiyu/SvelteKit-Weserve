@@ -15,7 +15,7 @@
 </script>
 
 <footer
-	class="container grid grid-rows-1 grid-cols-12 gap-8 relative top-0 left-0 right-0 bottom-0 z-0 bg-secondary -mt-64 pt-[330px] pb-12"
+	class="container mx-auto max-w-none grid grid-rows-1 grid-cols-12 gap-8 relative top-0 left-0 right-0 bottom-0 z-0 bg-secondary -mt-64 pt-[330px] pb-12"
 >
 	<aside id="left-content" class="col-span-4 flex flex-col gap-8">
 		<img src={appLogo} alt="app-logo" width="160" height="38" class="max-w-[160px]" />

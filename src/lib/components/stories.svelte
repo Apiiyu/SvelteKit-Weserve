@@ -11,7 +11,10 @@
 	export let stories: IPropsStories[];
 </script>
 
-<section id="stories" class="container relative top-0 left-0 right-0 z-0 flex flex-col gap-8">
+<section
+	id="stories"
+	class="container mx-auto max-w-none relative top-0 left-0 right-0 z-0 flex flex-col gap-8"
+>
 	<header class="flex flex-col justify-center items-center gap-3">
 		<h1 class="font-clash-display font-semibold text-5xl text-white">Great Stories</h1>
 
