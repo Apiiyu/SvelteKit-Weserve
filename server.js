@@ -34,6 +34,6 @@ createTerminus(server, {
 	}
 });
 
-server.listen(3000, () => {
-	console.log('Listening on port 3000');
+server.listen(8002, () => {
+	console.log('Listening on port 8002');
 });
